@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso y Alumnos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #005a8c;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .course-info, .student-info {
+            margin-bottom: 30px;
+        }
+        .course-info h2, .student-info h2 {
+            color: #005a8c;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .btn {
+            background-color: #005a8c;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Información del Curso y Alumnos</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- Información del Curso -->
+        <div class="course-info">
+            <h2>Detalles del Curso</h2>
+            <p><strong>Nombre del curso:</strong> Desarrollo Web Avanzado</p>
+            <p><strong>Duración:</strong> 6 meses</p>
+            <p><strong>Profesor:</strong> María Pérez</p>
+            <p><strong>Descripción:</strong> Este curso está diseñado para estudiantes que desean profundizar en el desarrollo web, cubriendo desde la creación de sitios responsivos hasta el manejo avanzado de bases de datos y frameworks.</p>
+        </div>
+
+        <!-- Información de los Alumnos -->
+        <div class="student-info">
+            <h2>Lista de Alumnos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Correo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ana López</td>
+                        <td>25</td>
+                        <td>ana.lopez@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Juan Martínez</td>
+                        <td>28</td>
+                        <td>juan.martinez@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Carla Gómez</td>
+                        <td>22</td>
+                        <td>carla.gomez@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Pedro Rodríguez</td>
+                        <td>30</td>
+                        <td>pedro.rodriguez@email.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <a href="mailto:profesor@curso.com" class="btn">Contactar al Profesor</a>
+        
+    </div>
+
+</body>
+</html>
