@@ -1,0 +1,14 @@
+#ignorar la carpeta logs
+logs/
+#ignorar archivos que tenga las extensiones .log
+*.log
+#ignorar la carpeta .env
+.env
+#ignorar un archivo espefico
+app.js
+*.pdf
+#ignorar todos los pft menos importantes .pdf
+!important.pdf
+#ignore todos los txt en la carpeta docs
+docs/*.txt
+#
